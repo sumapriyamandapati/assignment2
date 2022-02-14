@@ -1,0 +1,32 @@
+{
+  "name": "assignment2",
+  "description": "In this assignment, your job will be to create a simple inventory management system using the technologies and skills that you’ve acquired in the first four modules. Although your project may closely resemble the Issue Tracker that you’re working through in the book, there will be other features built in this app that may require a bit of your own research",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sumapriyamandapati/CS649-AS1.git"
+  },
+  "keywords": [],
+  "author": "Sumapriya",
+  "bugs": {
+    "url": "https://github.com/sumapriyamandapati/CS649-AS1/issues"
+  },
+  "scripts": {
+    "start": "nodemon -w server server/server.js",
+    "watch": "babel src --presets @babel/react --out-dir public --watch --verbose",
+    "compile": "babel src --presets @babel/react --out-dir public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel-watch": "^7.4.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/preset-react": "^7.12.13"
+  }
+}
