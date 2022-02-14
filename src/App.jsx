@@ -12,7 +12,7 @@ const ProductRow = (props) => (
 function ProductTable(props) {
     const productRows = props.products.map(product =><ProductRow key={product.id} product={product} />);
     return (
-        <table className="bordered-table colmn-width">
+        <table className="bordered-table column-width">
             <thead>
             <tr>
                 <th>Product Name</th>

@@ -15,7 +15,7 @@
     border-collapse: collapse;
     margin-left: 20px;
 }
-.colmn-width {
+.column-width {
   table-layout: fixed;
   width: 100%;  
 }
